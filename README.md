@@ -13,6 +13,8 @@ This project involves training a machine learning model using Edge Impulse, depl
  ![Edge Impulse cli](https://github.com/user-attachments/assets/df2e71b4-6e28-4add-b61e-18074204f66b)
 
 4. Train the model with collected gesture data.
+   ![Edge Impulse cli1](https://github.com/user-attachments/assets/d6b28832-47e9-4360-a44c-d5b63b2d8981)
+
 5. Download the model as an Arduino library or C++ source code.
 
 ### 2. Upload the Code to ESP32
@@ -26,8 +28,12 @@ This project involves training a machine learning model using Edge Impulse, depl
 ### 3. Connect WiFi using ESP BLE Provisioning App
 1. Install the ESP BLE Provisioning App (available on Play Store/App Store).
 2. Open the app and scan for your ESP32 device.
+   ![ESP BLE APP1](https://github.com/user-attachments/assets/c4e09da9-dbe0-4b43-83de-e7e31764c576)
+
 3. Enter the WiFi credentials and provision the ESP32.
 4. The ESP32 will connect to the provided WiFi network.
+ ![ESP BLE APP](https://github.com/user-attachments/assets/37d9e0c1-48bf-44cb-a5ac-ace9e81af407)
+
 
 ### 4. Copy the IP Address from the Serial Monitor
 1. Open the Arduino Serial Monitor.
@@ -36,6 +42,7 @@ This project involves training a machine learning model using Edge Impulse, depl
 
 ### 5. Recognize the Gesture
 1. Access the web interface using the copied IP address.
+![Output Website](https://github.com/user-attachments/assets/12473d98-35c8-4414-b79a-3542ba6bafe6)
 2. Perform the trained gesture.
 3. The ESP32 will classify and display the recognized gesture.
 

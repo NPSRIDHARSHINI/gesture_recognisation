@@ -10,6 +10,8 @@ This project involves training a machine learning model using Edge Impulse, depl
 1. Install the Edge Impulse CLI:
 2. Log in to your Edge Impulse account:
 3. Connect your device and start data acquisition.
+ ![Edge Impulse cli](https://github.com/user-attachments/assets/df2e71b4-6e28-4add-b61e-18074204f66b)
+
 4. Train the model with collected gesture data.
 5. Download the model as an Arduino library or C++ source code.
 
